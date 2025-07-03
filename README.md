@@ -13,20 +13,19 @@
 
 ## Struktur Project
 
-myfavmovies/
-├── main.py # Program utama (CLI)
-├── models/
-│ ├── movie.py # Definisi kelas Movie & WatchedMovie
-│ └── manager.py # Manajemen daftar film
-├── data/
-│ └── movies.json # Data film tersimpan
-└── README.md # Dokumentasi proyek
+(FOLDER UTAMA) myfavmovies/
+(FILE) main.py # Program utama (CLI)
+(FOLDER) models/
+(FILE MODELS) movie.py # Definisi kelas Movie & WatchedMovie
+(FILE MODELS) manager.py # Manajemen daftar film
+(FOLDER) data/
+(FILE DATA) movies.json # Data film tersimpan
+README.md # Dokumentasi proyek
 
 ## Cara Menjalankan
 
 1. Pastikan Python 3 sudah terinstall.
 2. Buat virtual environment (opsional tapi disarankan):
-Bourne Again Shell (Bash)
-   python -m venv env
+Bourne Again Shell (Bash) : python -m venv env
    source env/bin/activate  # di Linux/Mac
    .\\env\\Scripts\\activate  # di Windows
